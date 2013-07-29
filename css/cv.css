@@ -1,0 +1,53 @@
+.site_header {
+	padding-top: 30px;
+	padding-bottom: 33px;
+	position: relative;
+	text-align: center;
+}
+.site_header h1 {
+	/* Text */
+	font: 2em 'Arvo', serif; /* 60px/10 */
+	line-height: 0.66666666em; /* 40px/60px */
+	font-weight: bold;
+	color: #464646;
+	/* Positioning & Display */
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	z-index: 2;
+}
+#logoline {
+	text-align: center;
+}
+.site_header h1:before,
+.site_header h1:after {
+	/* Elemants */
+    border-top: 1px solid #d4d4d4;
+    content: " ";
+	/* Positioning & Display */
+    display: block;
+    height: 1px;
+    width: 32%;
+    position: absolute;
+    left: 0;
+    top: 2.1em;
+	z-index: 1;
+}
+.site_header h1:after {
+   right: 0;  
+   left: auto; 
+}
+.site_header h2 {
+	font: 2.1em 'Arvo', serif; /* 21px/10 */
+	font-weight: normal;
+	color: #616161;
+	margin: -4px 0 25px 0;
+}
+.site_header h3 {
+	font: 2.5em 'Droid Sans', sans-serif; /* 25px/10 */
+	line-height: 1.2em; /* 30px/25px */
+	font-weight: 400;
+	color: #a4a5a6;
+	margin-right: 8%;
+	margin-left: 8%;
+}
