@@ -15,6 +15,8 @@
 
         }
 
+
+
         .circle {
             font-family: 'Josefin Sans', sans-serif;     
             width: 128px;
@@ -30,6 +32,10 @@
             -moz-transition: 1s;
             -o-transition: 1s;
             transition: 1s;
+        }
+
+        a {
+            text-decoration: none;
         }
 
         .about {
@@ -62,6 +68,38 @@
             box-shadow: 0 0 15px rgb(0, 255, 61);
         }
 
+        .vk {
+            background-image: url("../images/vk2.png");
+        }
+        
+        .vk:hover {
+           box-shadow: 0 0 15px #000; 
+        }
+
+        .facebook {
+            background-image: url("../images/facebook.png");
+        }
+        
+        .facebook:hover {
+           box-shadow: 0 0 15px #2969C9;
+        }
+
+        .gplus {
+            background-image: url("../images/gplus.png");
+        }
+        
+        .gplus:hover {
+           box-shadow: 0 0 15px #C02727;
+        }
+
+        .habr {
+            background-image: url("../images/habr.png");
+        }
+        
+        .habr:hover {
+           box-shadow: 0 0 15px lightgrey;
+        }
+
         .circle>h4 {
             margin: 0.33em;
             margin-top: 1.33em;
@@ -85,6 +123,11 @@
 
         .row {
             width: 494px;
+            margin: auto;
+        }
+
+        .row2 {
+            width: 670px;
             margin: auto;
         }
 
