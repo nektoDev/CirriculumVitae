@@ -68,6 +68,25 @@
             box-shadow: 0 0 15px rgb(0, 255, 61);
         }
 
+        .phone {
+            background-color: rgb(173, 141, 10);
+            color: white;
+        }
+
+        .phone:hover {
+            box-shadow: 0 0 15px rgb(255, 163, 0);
+        }
+
+        .email {
+            background-color: rgb(23, 124, 180);
+            color: white;
+        }
+
+        .email:hover {
+            box-shadow: 0 0 15px rgb(0, 204, 255);
+        }
+
+
         .vk {
             background-image: url("../images/vk2.png");
         }
@@ -92,12 +111,37 @@
            box-shadow: 0 0 15px #C02727;
         }
 
+         .twitter {
+            background-image: url("../images/twitter.png");
+        }
+        
+        .twitter:hover {
+           box-shadow: 0 0 15px #03F5FF;
+        }
+
         .habr {
             background-image: url("../images/habr.png");
         }
         
         .habr:hover {
            box-shadow: 0 0 15px lightgrey;
+        }
+
+        .github {
+            background-image: url("../images/github.png");
+        }
+        
+        .github:hover {
+           box-shadow: 0 0 15px #000; 
+        }
+
+
+        .bitbucket {
+            background-image: url("../images/bitbucket.png");
+        }
+        
+        .bitbucket:hover {
+           box-shadow: 0 0 15px #ddd; 
         }
 
         .circle>h4 {
@@ -127,8 +171,18 @@
         }
 
         .row2 {
-            width: 670px;
+            width: 328px;
             margin: auto;
+        }
+
+        .row3 {
+            width: 494px;
+            margin: auto;
+        }
+
+        .row4 {
+           width: 670px; 
+           margin: auto;
         }
 
         .site_header {
