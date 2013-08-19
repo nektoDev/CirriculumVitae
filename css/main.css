@@ -27,10 +27,10 @@ body {
     border-radius: 75px;
     margin-right: 0.5em;
     margin-left: 0.5em;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 a {
@@ -214,7 +214,7 @@ a {
     /* Positioning & Display */
     display: block;
     height: 1px;
-    width: 32%;
+    width: 21%;
     position: absolute;
     left: 0;
     top: 2.1em;
