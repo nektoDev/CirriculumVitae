@@ -1,196 +1,194 @@
-    @font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Josefin Sans Thin'), local('JosefinSans-Thin'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v3/q9w3H4aeBxj0hZ8Osfi3dy1dfeF-hbOdKKuBDEXxqhQ.woff) format('woff');
-}
 @font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Josefin Sans'), local('JosefinSans'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v3/xgzbb53t8j-Mo-vYa23n5nhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Josefin Sans Thin'), local('JosefinSans-Thin'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v3/q9w3H4aeBxj0hZ8Osfi3dy1dfeF-hbOdKKuBDEXxqhQ.woff) format('woff');
 }
 
-        body {
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Josefin Sans'), local('JosefinSans'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v3/xgzbb53t8j-Mo-vYa23n5nhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
 
-        }
+body {
 
+}
 
+.circle {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 128px;
+    height: 128px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 9px;
+    border-radius: 75px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
 
-        .circle {
-            font-family: 'Josefin Sans', sans-serif;     
-            width: 128px;
-            height: 128px;
-            text-align: center;
-            vertical-align: middle;
-            display: inline-block;
-            padding: 9px;
-            border-radius: 75px;
-            margin-right: 0.5em;
-            margin-left: 0.5em;
-            -webkit-transition: 1s;
-            -moz-transition: 1s;
-            -o-transition: 1s;
-            transition: 1s;
-        }
+a {
+    text-decoration: none;
+}
 
-        a {
-            text-decoration: none;
-        }
+.about {
+    background-color: rgb(0, 0, 117);
+    color: white;
+}
 
-        .about {
-            background-color: rgb(0, 0, 117);
-            color: white;
-        }
+.about:hover {
+    box-shadow: 0 0 15px blue;
 
-        .about:hover {
-            box-shadow: 0 0 15px blue;
+}
 
-        }
+.blog {
+    background-color: rgb(102, 21, 21);
+    color: #fff;
 
-        .blog {
-            background-color: rgb(102, 21, 21);
-            color: #fff;
+}
 
-        }
+.blog:hover {
+    box-shadow: 0 0 18px rgb(255, 40, 40);
 
-        .blog:hover {
-            box-shadow: 0 0 18px rgb(255, 40, 40);
+}
 
-        }
+.projects {
+    background-color: rgb(12, 56, 18);
+    color: white;
+}
 
-        .projects {
-            background-color: rgb(12, 56, 18);
-            color: white;
-        }
+.projects:hover {
+    box-shadow: 0 0 15px rgb(0, 255, 61);
+}
 
-        .projects:hover {
-            box-shadow: 0 0 15px rgb(0, 255, 61);
-        }
+.phone {
+    background-color: rgb(173, 141, 10);
+    color: white;
+}
 
-        .phone {
-            background-color: rgb(173, 141, 10);
-            color: white;
-        }
+.phone:hover {
+    box-shadow: 0 0 15px rgb(255, 163, 0);
+}
 
-        .phone:hover {
-            box-shadow: 0 0 15px rgb(255, 163, 0);
-        }
+.email {
+    background-color: rgb(23, 124, 180);
+    color: white;
+}
 
-        .email {
-            background-color: rgb(23, 124, 180);
-            color: white;
-        }
+.email:hover {
+    box-shadow: 0 0 15px rgb(0, 204, 255);
+}
 
-        .email:hover {
-            box-shadow: 0 0 15px rgb(0, 204, 255);
-        }
+.vk {
+    background-image: url("../images/vk2.png");
+}
 
+.vk:hover {
+    box-shadow: 0 0 15px #000;
+}
 
-        .vk {
-            background-image: url("../images/vk2.png");
-        }
-        
-        .vk:hover {
-           box-shadow: 0 0 15px #000; 
-        }
+.facebook {
+    background-image: url("../images/facebook.png");
+}
 
-        .facebook {
-            background-image: url("../images/facebook.png");
-        }
-        
-        .facebook:hover {
-           box-shadow: 0 0 15px #2969C9;
-        }
+.facebook:hover {
+    box-shadow: 0 0 15px #2969C9;
+}
 
-        .gplus {
-            background-image: url("../images/gplus.png");
-        }
-        
-        .gplus:hover {
-           box-shadow: 0 0 15px #C02727;
-        }
+.gplus {
+    background-image: url("../images/gplus.png");
+}
 
-         .twitter {
-            background-image: url("../images/twitter.png");
-        }
-        
-        .twitter:hover {
-           box-shadow: 0 0 15px #03F5FF;
-        }
+.gplus:hover {
+    box-shadow: 0 0 15px #C02727;
+}
 
-        .habr {
-            background-image: url("../images/habr.png");
-        }
-        
-        .habr:hover {
-           box-shadow: 0 0 15px lightgrey;
-        }
+.twitter {
+    background-image: url("../images/twitter.png");
+}
 
-        .github {
-            background-image: url("../images/github.png");
-        }
-        
-        .github:hover {
-           box-shadow: 0 0 15px #000; 
-        }
+.twitter:hover {
+    box-shadow: 0 0 15px #03F5FF;
+}
 
+.habr {
+    background-image: url("../images/habr.png");
+}
 
-        .bitbucket {
-            background-image: url("../images/bitbucket.png");
-        }
-        
-        .bitbucket:hover {
-           box-shadow: 0 0 15px #ddd; 
-        }
+.habr:hover {
+    box-shadow: 0 0 15px lightgrey;
+}
 
-        .circle>h4 {
-            margin: 0.33em;
-            margin-top: 1.33em;
-            margin-bottom: 1em;
-        }
+.github {
+    background-image: url("../images/github.png");
+}
 
-        .circle>p {
-            margin-top: 0em
-        }
+.github:hover {
+    box-shadow: 0 0 15px #000;
+}
 
-        .circle>hr {
-            margin: 0em
-        }
+.bitbucket {
+    background-image: url("../images/bitbucket.png");
+}
 
-        .page {
-            width: 50%;
-            margin: auto;
-            padding: 25px;
+.bitbucket:hover {
+    box-shadow: 0 0 15px #ddd;
+}
 
-        }
+.circle>h4 {
+    margin: 0.33em;
+    margin-top: 1.33em;
+    margin-bottom: 1em;
+}
 
-        .row {
-            width: 494px;
-            margin: auto;
-        }
+.circle>p {
+    margin-top: 0em
+}
 
-        .row2 {
-            width: 328px;
-            margin: auto;
-        }
+.circle>hr {
+    margin: 0em
+}
 
-        .row3 {
-            width: 494px;
-            margin: auto;
-        }
+.page {
+    width: 50%;
+    margin: auto;
+    padding: 25px;
 
-        .row4 {
-           width: 670px; 
-           margin: auto;
-        }
+}
 
-        .site_header {
+.row {
+    width: 494px;
+    margin: auto;
+}
+
+.row2 {
+    width: 328px;
+    margin: auto;
+}
+
+.row3 {
+    width: 494px;
+    margin: auto;
+}
+
+.row4 {
+    width: 670px;
+    margin: auto;
+}
+
+.site_header {
     padding-top: 30px;
     padding-bottom: 33px;
     position: relative;
     text-align: center;
 }
+
 .site_header h1 {
     /* Text */
     font: 2em 'Arvo', serif; /* 60px/10 */
@@ -203,9 +201,11 @@
     padding-left: 5px;
     z-index: 2;
 }
+
 #logoline {
     text-align: center;
 }
+
 .site_header h1:before,
 .site_header h1:after {
     /* Elemants */
@@ -220,16 +220,19 @@
     top: 2.1em;
     z-index: 1;
 }
+
 .site_header h1:after {
-   right: 0;  
-   left: auto; 
+    right: 0;
+    left: auto;
 }
+
 .site_header h2 {
     font: 2.1em 'Arvo', serif; /* 21px/10 */
     font-weight: normal;
     color: #616161;
     margin: -4px 0 25px 0;
 }
+
 .site_header h3 {
     font: 2.5em 'Droid Sans', sans-serif; /* 25px/10 */
     line-height: 1.2em; /* 30px/25px */
